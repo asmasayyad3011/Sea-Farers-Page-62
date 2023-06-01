@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: #efefef;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.header{
+    background-color: #fff;
+    box-shadow: 0px 6px 12px #0000001f;
+    opacity: 1;
+    height: 70px;
+}
+
+.logo img{
+    width: 140px;
+    margin-top: 15px;
+    margin-right: 30px;
+}
+.input-group{
+   position: relative; 
+    margin-top: 10px;
+    width: 590px;
+}
+.input-group input{
+    border: 1px solid #B4B4B4;
+    border-radius: 7px;
+    background: #F5F5F5;
+    padding: 11px;
+}
+*::placeholder {
+	/* modern browser */
+	text-align: left;
+    font: normal normal  14px/19px Inter UI !important; 
+    color: #B4B4B4;
+}
+.search{
+    position: absolute;
+    top: 21px;
+    left: 947px;
+}
+.icon_list{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+.icon_item{
+    padding: 14px;
+}
+.icon_link{
+    text-decoration: none;
+}
+/* -------------------------------------------------- */
+.leftsection a{
+    text-decoration: none;
+    color: #228993;
+}
+.leftsection h5{
+    font: normal normal bold 20px/24px Montserrat;
+    color: #231F20;
+    margin-bottom: 0;
+}
+
+
+.leftsection .card{
+    border-radius: 12px;
+    width: 92%;
+    margin-left: 100px;
+    box-shadow: 1px 4px 11px #00000029;
+}
+.leftsection .card-body{
+    padding: 12px;
+    padding-bottom: 0;
+}
+.leftsection #india{
+    color: #231F20;
+    display: inline;
+    margin-left: 25px;
+    margin-right: 12px;
+    font: normal normal normal 16px/19px Montserrat;
+}
+.leftsection ul{
+    color: #231F20;
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0px;
+}
+.leftsection ul li::before{
+    content: "\2022";
+    color:#228993;
+    font-weight: 800;
+}
+/*------------------------------------------------------------------------*/
+.owl-prev{
+    position: absolute;
+    top: -33px;
+    right: 61px;
+
+}
+.owl-next{
+    position: absolute;
+    top: -33px;
+    right: 35px;
+}
+.owl-prev i{
+    font-size: 25px;
+}
+.owl-next i{
+    font-size: 25px;
+}
+
+.owl-theme .owl-nav[class*=owl-]:hover{
+    background: transparent;
+    color: #0074DB;
+    text-decoration: none;
+}
+.headingleft h5{
+    margin-top: 10px;
+}
+.item img{
+    border-radius: 5px;
+}
+
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+.rightsection {
+    position: fixed;
+    right: 44px;
+    width: 31%;
+}
+.rightsection .card{
+    width: 75%;
+    margin-left: 0;
+
+}
+.rightsection h5{
+    margin: 10px 0px;
+    font: normal normal bold 16px/19px Montserrat;
+    color: #231F20;
+}
+.rightsection .over{
+    color: #444444;
+    height: 80px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    font: normal normal 200 14px/20px Rubik;
+}
+.rightsection .btn{
+    background: #228993;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.rightsection .btn i{
+    padding-right: 13px;
+    font-size: 15px;
+}
+.rightsection .card-body{
+    padding-bottom: 15px;
+}
+
+/* ------------------------------------------------------------------------------ */
+.headingleft{
+    margin: 10px 0px;
+    width: 45%;
+}
+.headingright p{
+    font-size: 13px;
+    margin-top: 18px;
+}
+.headingright span{
+    color: #228993;
+    font-weight: 500;
+}
+.headingleft span{
+    color: #228993;
+}
+/* ------------------------------------------------------------------------*/
+.midcard{
+    padding-left: 15px;
+}
+.profileleft img{
+    width: 60px;
+   
+}/*
+.profileleft{
+    margin-top: 10px;
+}*/
+.rightbtn{
+    margin-top: 5px;
+}
+.rightbtn button{
+    width: 150px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.righttext{
+    display: inline-flex;
+    margin: 0px 5px;
+    font-size: 15px;
+}
+.dateofexam span{
+    color: #231F20;
+    font-size: 13px;
+}
+.dateofexam p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.dateofexam sup{
+    font-size: 10px;
+}
+.dateofexam{
+    font-family: 'Montserrat', sans-serif;
+}
+.surveyor{
+    font-family: 'Montserrat', sans-serif;
+    border-left: 1px solid #DDDDDD;
+    height: 45px;
+    padding-left: 20px;
+}
+
+.surveyor span{
+    color: #231F20;
+    font-size: 13px;
+}
+.surveyor p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.result{
+    font-family: 'Montserrat', sans-serif;
+    border-left: 1px solid #DDDDDD;
+    height: 45px;
+    padding-left: 20px;
+}
+
+.result span{
+    color: #231F20;
+    font-size: 13px;
+}
+.result p{
+    font-size: 15px;
+    font-weight: bold;
+    color: #47BB6A;
+}
+.para{
+    width: 100%;
+   
+}
+.para p{
+    color: #444444;
+    font: normal normal 300 14px/20px Rubik;
+    text-align: justify;
+    margin-bottom: 0;
+}
+#myBtn{
+    background: transparent;
+    border: 0;
+    color: #0074DB;
+    font-size: 14px;
+}
+#more {display: none;}
+
+.para span{
+    color: #444444;
+    font: normal normal 300 14px/20px Rubik;
+}
+.like{
+    padding-top: 20px;
+}
+.para i{
+    font-size: 17px;
+}
+.para hr{
+    margin-top: 20px;
+}
+.likes{
+    margin-top: 12px;
+}
+.pic img{
+    width: 12%;
+}
+.resultone{
+    font-family: 'Montserrat', sans-serif;
+    border-left: 1px solid #DDDDDD;
+    height: 45px;
+    padding-left: 20px;
+}
+.resultone p{
+    font-size: 15px;
+    font-weight: bold;
+    color: #FF3F3E;
+}
+.more{
+    border: 1px solid #DDDDDD;
+    padding: 21px;
+    border-radius: 4px;
+}
+.more span{
+    color: #47c1db;
+}
+.likeslast{
+    margin-top: 12px;
+    padding-bottom: 20px;
+}
+.bio{
+    font: normal normal bold 16px/18px Montserrat;
+}
+/* ---------------------------------------------------------------------------- */
+.profile h6{
+    text-align: left;
+    font: normal normal bold 19px/19px Montserrat;
+    color: #231F20;
+    margin-bottom: 25px;
+}
+
+.image img{
+    height:44px;
+    margin-top:-48px;
+    margin-left:-10%;
+}
+#color2{
+    color: #228993;
+    background: white;
+    border: 2px solid;
+    padding: 7px;
+    font-size: 11px;
+}
+#color1{
+    background-color: #228993;
+    color: white;
+    padding: 9px;
+    font-size: 11px;
+}
+#subfont{
+    text-align: left;
+    font: normal normal 300 12px/15px Montserrat;
+    color: #888888;
+}
+.rightbtn button{
+    border: 1px solid #228993;
+    border-radius: 4px;
+    text-align: center;
+    font: normal normal  12px/15px Montserrat;
+    color: #228993;
+    background: #fff;
+    padding: 9px;
+}
+.rightbtn button:hover{
+    background: #eaf9fa;
+}
+#People{
+    text-align: left;
+    font: normal normal bold 14px/18px Montserrat;
+    color: #231F20;
+}
+.button-width{
+    width:55px;
+    margin-left:-52px;
+    margin-right:3%;
+}
+
+#explorelink{
+    text-decoration:none;
+    text-align: left;
+    font: normal normal 600 12px/15px Montserrat;
+    color: #0074DB;
+}
+
+#right-font-bold{
+    font-weight:bold;
+}
+
+.card-shadow{
+    box-shadow:0px 2px 2px #00000029 ;
+    font: normal normal bold 16px/19px Montserrat;
+}
+
+#recent-font{
+    font-size:smaller;
+}
+
+#float-right{
+    float:right;
+    color:#228993;
+}
+
+#float-right2{
+    float:right;
+    color:rgb(197, 192, 192);
+    margin-top:6px;
+    font-size:x-small;
+    font-weight:normal;
+    
+
+}
+
+
